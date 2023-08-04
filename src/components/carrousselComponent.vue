@@ -3,7 +3,7 @@
         <div class="carousel-indicators">
                 <button v-for="img, index in imageCarrossel" :key="index" type="button" data-bs-target="#carouselExampleCaptions" :data-bs-slide-to="index" class="active"
                     aria-current="true" :aria-label="`Slide ${index}`"></button>
-
+ 
         </div>
         <div class="carousel-inner">
 
